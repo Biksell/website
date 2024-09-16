@@ -12,8 +12,8 @@ function App() {
   })
 
   return (
-    <main className={`container-fluid p-0 `}>
-      <section className={`container-fluid-section-1 header text-center`}>
+    <main className={``}>
+      <div className={`header text-center`}>
         <div>
           <span>biksel.dev</span>
           <span className="cursor">{cursor}</span>
@@ -21,7 +21,7 @@ function App() {
         <div className={`d-grid gap-2 d-sm-flex justify-content-sm-center`}>
           <Button text="GitHub" link="https://github.com/biksell" icon="bi-github"/>
         </div>
-      </section>
+      </div>
       <div className={`line`}/>
       <section id="portfolio" className={`container-fluid-section-2`}>
         <div className={`row`}>
