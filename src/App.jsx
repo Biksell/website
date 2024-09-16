@@ -51,7 +51,7 @@ function App() {
               header="Discord Bots"
               text="Discord bots made with both discord.py and discord.js. Features include automatic video download from Instagram Reels and TikTok links, and embedding them back into Discord. PeeBee-bot is a speedrunning personal best tracker, that is still in development."
               imgPath="/assets/discord.png"
-              repoLink="https://github.com/biksell"
+              repoLink="https://github.com/biksell/lux"
             />
             <Project
               header="Autosplitters"
