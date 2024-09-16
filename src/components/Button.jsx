@@ -1,8 +1,8 @@
-const Button = ({text, link}) => {
+const Button = ({text, link, icon}) => {
   return (
-    <div>
+    <div className={`btnDiv`}>
       <a className={`btn btn-outline-light px-3`} href={link}>
-        <i className={`bi-github`}> </i>
+        <i className={icon}> </i>
         {text}
       </a>
     </div>

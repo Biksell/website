@@ -19,7 +19,7 @@ function App() {
           <span className="cursor">{cursor}</span>
         </div>
         <div className={`d-grid gap-2 d-sm-flex justify-content-sm-center`}>
-          <Button text="GitHub" link="https://github.com/biksell"/>
+          <Button text="GitHub" link="https://github.com/biksell" icon="bi-github"/>
         </div>
       </section>
       <div className={`line`}/>
@@ -30,34 +30,34 @@ function App() {
           </div>
           <div className={`portfolio`}>
             <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
+              header="Run-queue client"
+              text="Web-client for checking pending runs of games, series, moderators and users from speedrun.com. Utilizes V2 of the speedrun.com API, which is slower but more consistent than V1. Support for V1 is in development."
+              imgPath="/assets/run-queue.png"
+              repoLink="https://github.com/biksell/run-queue"
+            />
+            <Project
+              header="Refresh rate switch"
+              text="Quickly change your refresh rate on any monitor from the taskbar. Started from my own needs in speedrunning, but I quickly noticed other people had use for it as well."
+              imgPath="https://raw.githubusercontent.com/Biksell/refreshrate/main/screenshot.png"
+              repoLink="https://github.com/biksell/refreshrate"
+            />
+            <Project
+              header="Image Notes"
+              text="Slideshow program made with Python for Windows. Useful for speedrunning generic puzzle games and having their solutions opened at the same time. LiveSplit integration and hotkey changing planned to be implemented in the future."
+              imgPath="/assets/image-notes.png"
+              repoLink="https://github.com/biksell/image-notes"
+            />
+            <Project
+              header="Discord Bots"
+              text="Discord bots made with both discord.py and discord.js. Features include automatic video download from Instagram Reels and TikTok links, and embedding them back into Discord. PeeBee-bot is a speedrunning personal best tracker, that is still in development."
+              imgPath="/assets/discord.png"
               repoLink="https://github.com/biksell"
             />
             <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
-              repoLink="https://github.com/biksell"
-            />
-            <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
-              repoLink="https://github.com/biksell"
-            />
-            <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
-              repoLink="https://github.com/biksell"
-            />
-            <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
-              repoLink="https://github.com/biksell"
-            />
-            <Project
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ante eget tincidunt pharetra, leo purus fermentum sapien, sit amet finibus neque metus in est. Sed vel nisi in ipsum finibus pellentesque in nec dui. Duis nibh augue, vulputate eu nisl ut, vulputate maximus elit. Sed nulla mauris, sagittis eu bibendum non, placerat vel dui. Curabitur pharetra tempor turpis id lobortis. Aenean eget enim id nunc sodales fermentum viverra id neque. Aenean leo ipsum, mollis molestie leo in, congue volutpat tellus. Pellentesque at nisl blandit, lobortis nisi eget, vestibulum urna. Nunc fringilla felis vitae purus faucibus, vel elementum sapien hendrerit"
-              imgPath="/assets/placeholder.png"
-              repoLink="https://github.com/biksell"
+              header="Autosplitters"
+              text="Dozens of autosplitting scripts made for LiveSplit, a timer program for speedrunning. Made using the ASL (Auto Splitting Language), which is a small scripting language made specifically for this purpose."
+              imgPath="/assets/livesplit.png"
+              repoLink="https://github.com/biksell/asl"
             />
           </div>
         </div>
